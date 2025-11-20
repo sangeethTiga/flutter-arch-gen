@@ -47,44 +47,43 @@ Navigate to your Flutter project and run:
 flutter-gen
 ```
 
-That's it! Check `lib/src/` for generated structure.
+That's it! Check `lib/` for generated structure.
 
 ## 📁 Generated Structure
 
 ```
 lib/
 ├── main.dart
-└── src/
-    ├── app/              (config, di, router, theme)
-    │   ├── config/
-    │   ├── di/
-    │   ├── router/
-    │   └── theme/
-    │
-    ├── core/             (shared utilities)
-    │   ├── constants/
-    │   ├── errors/
-    │   ├── network/
-    │   ├── storage/
-    │   ├── usecase/
-    │   ├── utils/
-    │   └── widgets/
-    │
-    ├── features/         (feature modules)
-    │   ├── auth/         (example feature)
-    │   │   ├── data/
-    │   │   ├── domain/
-    │   │   └── presentation/
-    │   │
-    │   └── home/         (example feature)
-    │       ├── data/
-    │       ├── domain/
-    │       └── presentation/
-    │
-    └── shared/           (cross-feature utilities)
-        ├── enums/
-        ├── extensions/
-        └── mixins/
+├── app/              (config, di, router, theme)
+│   ├── config/
+│   ├── di/
+│   ├── router/
+│   └── theme/
+│
+├── core/             (shared utilities)
+│   ├── constants/
+│   ├── errors/
+│   ├── network/
+│   ├── storage/
+│   ├── usecase/
+│   ├── utils/
+│   └── widgets/
+│
+├── features/         (feature modules)
+│   ├── auth/         (example feature)
+│   │   ├── data/
+│   │   ├── domain/
+│   │   └── presentation/
+│   │
+│   └── home/         (example feature)
+│       ├── data/
+│       ├── domain/
+│       └── presentation/
+│
+└── shared/           (cross-feature utilities)
+    ├── enums/
+    ├── extensions/
+    └── mixins/
 ```
 
 ## 📋 Requirements
